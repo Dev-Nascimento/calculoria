@@ -1,0 +1,56 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+}
+
+.box {
+      background: rgb(0, 187, 146);
+      width: 100%;
+      height: auto;
+      margin-top: 150px;
+}
+
+h1 {
+      text-align: center;
+}
+
+#imc-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+#imc-form label {
+      margin-bottom: 5px;
+}
+
+#imc-form input {
+      width: 200px;
+      padding: 5px;
+      margin-bottom: 10px;
+}
+
+#imc-form button {
+      padding: 10px 20px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+}
+
+#resultado {
+      margin-top: 20px;
+      text-align: center;
+}
+
+#resultado p {
+      margin-bottom: 5px;
+}
+
+#imc-valor {
+      font-weight: bold;
+}
+
+#classificacao {
+      font-style: italic;
+}
